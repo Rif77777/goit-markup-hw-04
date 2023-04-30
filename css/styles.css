@@ -7,6 +7,8 @@
     --secondary-text-color: #2e2f42;
     --primary-button-color: #4d5ae5;
     --primary-button-background-color: #f4f4fd;
+    --icon-color: #8e8f99;
+    --color: currentColor;
   }
   
   h1,
@@ -179,7 +181,6 @@
   }
   
   
-  
   .button {
     display: block;
     margin: auto;
@@ -230,6 +231,33 @@
     letter-spacing: 0.02em;
     color: #434455;
   }
+
+
+
+  .subtitle-item {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+
+  .svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4fd;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+  }
+  .svg-container-icon {
+    width: 64px;
+    height: 64px;
+    fill: #2e2f42;
+  }
+  
+
   
   .image-section {
     padding-top: 0;
