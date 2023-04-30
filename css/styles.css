@@ -7,8 +7,7 @@
     --secondary-text-color: #2e2f42;
     --primary-button-color: #4d5ae5;
     --primary-button-background-color: #f4f4fd;
-    --icon-color: #8e8f99;
-    --color: currentColor;
+   
   }
   
   h1,
@@ -250,7 +249,6 @@
     width: 264px;
     height: 112px;
     margin-bottom: 8px;
-    
   }
   .svg-container-icon {
     width: 64px;
