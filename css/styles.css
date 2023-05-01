@@ -396,7 +396,6 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    margin-top: 8px;
   }
   
   .social-list-link:hover,
@@ -544,6 +543,15 @@
     color: var(--secondary-text-color);
   }
   
+
+  .features-item {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+
+
   .features-subtitle {
     font-size: 16px;
     line-height: 1.5;
